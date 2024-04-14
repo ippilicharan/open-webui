@@ -332,8 +332,8 @@ DEFAULT_PROMPT_SUGGESTIONS = (
     and type(CONFIG_DATA["ui"]["prompt_suggestions"]) is list
     else [
         {
-            "title": ["Help me study", "vocabulary for a college entrance exam"],
-            "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
+            "title": ["Help me to study", "vocabulary for a college entrance exam"],
+            "content": "Help me to study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
         },
         {
             "title": ["Give me ideas", "for what to do with my kids' art"],
@@ -452,5 +452,5 @@ WHISPER_MODEL_DIR = os.getenv("WHISPER_MODEL_DIR", f"{CACHE_DIR}/whisper/models"
 # Images
 ####################################
 
-AUTOMATIC1111_BASE_URL = os.getenv("AUTOMATIC1111_BASE_URL", "")
-COMFYUI_BASE_URL = os.getenv("COMFYUI_BASE_URL", "")
+AUTOMATIC1111_BASE_URL = os.getenv("AUTOMATIC1111_BASE_URL", "http://127.0.0.1:7860/")
+COMFYUI_BASE_URL = os.getenv("COMFYUI_BASE_URL", "http://127.0.0.1:7861")
