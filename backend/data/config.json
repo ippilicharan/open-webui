@@ -4,8 +4,8 @@
 		"default_locale": "en-US",
 		"prompt_suggestions": [
 			{
-				"title": ["Help me study", "vocabulary for a college entrance exam"],
-				"content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option."
+				"title": ["Help me to study", "vocabulary for a college entrance exam"],
+				"content": "Help me to study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option."
 			},
 			{
 				"title": ["Give me ideas", "for what to do with my kids' art"],
